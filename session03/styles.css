@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(51, 168, 236);
+    color: white;
+    margin: 0px;
+
+    font-family: "Pompiere", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header {
+background-color: rgb(40, 121, 165);
+text-align: center;
+padding: 15;
+letter-spacing: 3px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+}
+
+p{
+    font-size: 20px;
+}
+nav{
+    background-color: rgb(40, 143, 198);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+nav a{
+margin:20px;
+color: white;
+text-decoration: none;
+
+}
+
+nav a:hover{
+    color: black;
+}
+main{
+    background-color: rgb(50, 128, 183);
+    padding: 100px;
+}
+main h2{
+    font-size:30px;
+    font-size-adjust:0.945;
+    rotate: -2deg;
+}
+
+main h3{
+    font-size:25px;
+}
+main p{
+font-family: "Pompiere", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+main img{
+    width: 350px;
+    height:350px;
+    border: 10px solid rgb(17, 17, 28);
+    border-block: 4px dotted rgb(12, 192, 36);
+    border-inline-style: dashed dotted ;
+
+}
+
+
+footer{
+    background-color: rgb(30, 48, 65);
+    padding: 20px;
+    opacity: 0.5;
+    border-style:solid;
+}
