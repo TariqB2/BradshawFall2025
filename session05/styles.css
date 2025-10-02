@@ -1,0 +1,145 @@
+body {
+    background-color: #000;
+    background-image: url("images/moss04.jpg");
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    /* background-position-y: bottom;  */
+
+    margin: 0;
+    padding: 0;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    /* 200 – 800 */
+    font-style: normal;
+
+}
+
+/* id rule uses hashtag #, only one per page */
+#wrapper {
+    margin: 100px auto;
+    width: 60%;
+    background-color: #fff;
+    padding: 30px 50px;
+    /* background-image: url("images/moss03.jpg"); */
+}
+
+/* class rules use a period to make a rule about a class, use multiple times */
+.wow {
+    color: #f00;
+    font-weight: 900;
+    font-style: italic;
+}
+
+header h1 {
+
+    font-family: "Bitcount Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    /* 100-900 */
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 66px;
+}
+
+main p {
+
+    font-size: 18px;
+    line-height: 24px;
+}
+
+main h2 {
+    border: #f00 solid 10px;
+    background-color: #D2E82A;
+    padding: 120px 10px 10px 10px;
+    margin: 40px 0px;
+    font-size: 44px;
+}
+
+
+main div.featuredImageOne {
+    border: solid rgb(57, 67, 55) 10px;
+    background-color: rgb(196, 235, 41);
+    padding: 40px;
+    margin: 100px auto;
+    width: 300px;
+    text-align: center;
+}
+
+main div.featuredImageOne img {
+    width: 100%;
+}
+
+main div.featuredImageTwo img{
+border-style: ridge;
+border-width: 10px;
+border-color:#198518;
+background-color:#186111;
+background-image: url("images/PlantPattern.jpeg");
+padding: 50px;
+display: block;
+margin: auto;
+height: 400px;
+width: 400px;
+
+}
+
+
+
+
+table,
+th,
+td,
+tr {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+main table {
+    border: 10px solid rgb(192, 192, 192);
+    background-color: rgb(255, 207, 74);
+
+}
+
+main table th {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(155, 155, 155);
+    font-family: "Bitcount Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    /* 100-900 */
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 33px;
+    padding: 22px;
+
+}
+
+main table td {
+    border: 5px solid rgb(77, 77, 77);
+    background-color: rgb(255, 255, 255);
+
+}
+
+nav{
+   /* background-color: #919f24; */
+    padding: 40px 0px;
+    text-align:center;
+}
+
+
+nav a{
+font-size: 23px;
+border: #f00 solid 5px;
+background-color: #D2E82A;
+padding: 10px 20px;
+margin: 20px;
+color: #000;
+text-decoration: none;
+}
+
+nav a:hover{
+    background-color: white;
+}
