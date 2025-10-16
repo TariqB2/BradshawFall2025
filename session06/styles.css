@@ -1,0 +1,85 @@
+/* START border-box fix */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/* END border-box fix */
+body{
+    background-color: aqua;
+}
+div.container {
+    width: 80%;
+    background-color: #229C67;
+    /* center the div container */
+    margin: 40px auto;
+}
+header, nav, main, aside, footer{
+    padding: 20px;
+}
+header {
+    background-color: #33E89A;
+}
+nav {
+    background-color: rgb(137, 189, 188);
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    background-color: #13583A;
+    width: 200px;
+    height: 50px;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 0px 10px;
+    border-radius: 120px;
+}
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 22px;
+}
+nav a:hover {
+    color: #33E89A;
+}
+main {
+    background-color: #1B7A50;
+    width: 70%;
+    float: left;
+}
+#grill{
+    float:right;
+}
+
+.hotdog{
+    background-color: #33E89A;
+    float: left;
+
+}
+
+
+#picture1{
+float: left;
+margin-right: 10px;
+
+
+}
+aside {
+    background-color: #c7e4d8;
+    width: 30%;
+    float: left;
+
+}
+footer {
+    background-color: #33E89A;
+    float: none;
+    clear: both;
+}
+
