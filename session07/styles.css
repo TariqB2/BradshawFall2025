@@ -1,0 +1,142 @@
+/* START border-box fix */
+html {
+  box-sizing: border-box;
+}
+/* asterisk (*) symbol represents the universal selector. Its primary function is to select all elements of any type within the document. */
+/* :before is a pseudo-element used to insert content before the actual content of a selected element. It creates a "virtual" first child within the element, allowing you to style and add content that isn't directly present in your HTML markup. */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* END border-box fix */
+
+body {
+   background-color: aquamarine;
+    background-image: url(/images/PlantPattern.jpeg);
+    background-attachment: fixed;
+    background-color: rgb(170, 170, 170);
+    padding: 0px;
+    margin: 10px;
+
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+    
+}
+#wrapper {
+    max-width: 1500px;
+    background-color: #fff;
+    border: solid #000000 10px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Add padding to all of the #wrapper child elements, >* symbol looks for first child in inside the selector */
+#wrapper>* {
+  padding: 20px;
+}
+
+
+header {
+    background: #60F53B;
+    order: 1;
+    flex: 0 0 100%;
+    opacity: 0.8;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-family: "Playwrite AU TAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
+main {
+  background: #B559A1;
+  order: 3;
+  flex: 1 1 200px;
+}
+
+/* SUBSCRIBE BUTTON */
+main div.buttonAbsolute {
+    background-color: rgb(255, 208, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 150px;
+    opacity: 0.9;
+    padding: 15px;
+    border-radius: 125px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+/* view gallery button */
+main div.buttonRelative {
+    background-color: rgb(255, 208, 0);
+    width: 100px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    left: 40px;
+    z-index: 3;
+    text-decoration: none;
+}
+main div.buttonRelative a{
+  text-decoration: none;
+}
+
+main div.buttonRelative a:hover{
+background-color: rgb(225, 173, 30);
+
+}
+
+  div.buttonRelative2 {
+    background-color: rgb(255, 208, 0);
+    width: 100px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    left: 40px;
+    z-index: 3;
+}
+div.buttonRelative2 a{
+  text-decoration: none;
+}
+div.buttonRelative2 a:hover{
+  background-color: rgb(225, 173, 30);
+}
+
+nav {
+  background: #70A363;
+  order: 2;
+  flex: 0 1 170px;
+}
+aside {
+  background: #70A363;
+  order: 4;
+  flex: 0 1 200px;
+}
+footer {
+  background: #75576F;
+  order: 5;
+  flex: 1 0 100%
+}
+
+.container1{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.container1 img{
+  width: 500px;
+  height: 500px;
+  margin: 30px;
+  background-color: #60F53B;
+  padding: 30px;
+  border: #B559A1 solid 5px;
+}
