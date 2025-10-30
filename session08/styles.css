@@ -1,0 +1,139 @@
+/* border-box fix */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  /* remove margin and padding on body */
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  background-color: aquamarine;
+  background-image: url(/images/paisley-cool-pattern.jpeg);
+  background-attachment: fixed;
+  background-color: rgb(170, 170, 170);
+  padding: 0px;
+  margin: 10px;
+
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+header h1 {
+  font-family: "Diplomata", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Grouping example */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  background: white;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  /*creates 12 col*/
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 20px;
+  background: transparent;
+}
+
+/* padding on immediate children of wrapper */
+.wrapper>* {
+  padding: 50px;
+}
+
+header {
+  background: #3F3E45;
+  /*spans all 12 col across*/
+  grid-column: 1/13;
+  grid-row: 1;
+}
+
+main {
+  background: #9F9DAE;
+  /*spans 6 cols*/
+  grid-column: 1/10;
+}
+
+nav {
+  background: #807E8C;
+  /*spans 3 cols*/
+  grid-column: 1/13;
+  grid-row: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav div.buttonRelative {
+  background-color: #8B96AE;
+  width: 200px;
+  padding: 10px 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+nav div.buttonRelative2 {
+  background-color: #8B96AE;
+  width: 200px;
+  padding: 10px 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+aside {
+  background: #BFBBD0;
+  /*spans 3 cols*/
+  grid-column: 10/13;
+  grid-row: 3;
+}
+
+.content {
+  background: #BFBBD0;
+  /*spans 3 cols*/
+  grid-column: 1/13;
+  margin: 0 auto;
+  grid-row: 4;
+  overflow-wrap: break-word;
+}
+
+/* span 2 rows */
+/*main,
+nav,
+aside {
+  grid-row: 1 / 4;
+} */
+
+
+footer {
+  background: #3F3E45;
+  /*spans all 12 col across*/
+  grid-column: 1/13;
+}
