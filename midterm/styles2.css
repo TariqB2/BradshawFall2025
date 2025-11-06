@@ -1,11 +1,12 @@
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/images/circus-pattern.jpg);
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/circus-pattern.jpg);
   background-attachment: fixed;
 }
+
 .container {
   width: 80%;
   height: 700px;
@@ -26,9 +27,10 @@ div.CupOne {
   animation-duration: 6s;
   animation-delay: 3s;
 }
-.CupOne img{
-    width: 200px;
-    height: auto;
+
+.CupOne img {
+  width: 200px;
+  height: auto;
 }
 
 div.CupTwo {
@@ -37,51 +39,130 @@ div.CupTwo {
   animation-duration: 6s;
   animation-delay: 3s;
 }
-.CupTwo img{
-    width: 200px;
-    height: auto;
+
+.CupTwo img {
+  width: 200px;
+  height: auto;
 }
+
 div.CupThree {
   position: relative;
   animation-name: ThreeAnimation;
   animation-duration: 6s;
   animation-delay: 3s;
 }
-.CupThree img{
-    width: 200px;
-    height: auto;
-    
+
+.CupThree img {
+  width: 200px;
+  height: auto;
+
 }
 
-h1, h2 {
-    font-family: "Rock Salt", cursive;
-    font-weight: 200;
-    font-style: normal;
-    color: #1b2a2e
+h1,
+h2 {
+  font-family: "Rock Salt", cursive;
+  font-weight: 200;
+  font-style: normal;
+  color: #1b2a2e
 }
 
 @keyframes myAnimation {
-  0%   { left:0px; top:0px; }
-  15%  { left:150px; top:30px;}
-  25%  { left:100px; top:300px;}
-  35%  { left:93px; top:240px;}
-  75%  { left:400px; top:190px;}
-  100% { left:0px; top:0px;}
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  15% {
+    left: 150px;
+    top: 30px;
+  }
+
+  25% {
+    left: 100px;
+    top: 300px;
+  }
+
+  35% {
+    left: 93px;
+    top: 240px;
+  }
+
+  75% {
+    left: 400px;
+    top: 190px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
 }
+
 @keyframes TwoAnimation {
-  0%   { left:0px; top:0px;}
-  25%  { left:100px; top:150px;}
-  50%  {left:200px; top:0px;}
-  67%  {left:100px; top:200px;}
-  75%  { left:90px; top:0px;}
-  100% { left:0px; top:0px;}
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 100px;
+    top: 150px;
+  }
+
+  50% {
+    left: 200px;
+    top: 0px;
+  }
+
+  67% {
+    left: 100px;
+    top: 200px;
+  }
+
+  75% {
+    left: 90px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
 }
+
 @keyframes ThreeAnimation {
-  0%   { left:0px; top:0px;}
-  10%  { left:100px; top:30px;}
-  25%  { left:300px; top:50px;}
-  50%  {left:200px; top:0px;}
-  75%  { left:140px; top:70px;}
-  85%  { left:60px; top:100px;}
-  100% { left:0px; top:0px;}  
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  10% {
+    left: 100px;
+    top: 30px;
+  }
+
+  25% {
+    left: 300px;
+    top: 50px;
+  }
+
+  50% {
+    left: 200px;
+    top: 0px;
+  }
+
+  75% {
+    left: 140px;
+    top: 70px;
+  }
+
+  85% {
+    left: 60px;
+    top: 100px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
 }

@@ -1,4 +1,3 @@
-
 html {
   box-sizing: border-box;
 }
@@ -16,7 +15,7 @@ body {
   background-color: aquamarine;
   background-image: url(/images/circus-pattern.jpg);
   background-attachment: fixed;
-  background-color:#F2E2CE;
+  background-color: #F2E2CE;
   padding: 0px;
   margin: 10px;
 
@@ -28,10 +27,10 @@ body {
 }
 
 header h1 {
-   font-family: "Rock Salt", cursive;
+  font-family: "Rock Salt", cursive;
   font-weight: 200;
   font-style: normal;
-  color:#BF3124;
+  color: #BF3124;
   display: flex;
   justify-content: center;
 }
@@ -68,7 +67,7 @@ header {
 main {
   background: #BF3124;
   grid-column: 1/10;
-  color:#F2E2CE;
+  color: #F2E2CE;
 }
 
 nav {
@@ -92,10 +91,12 @@ nav div.buttonRelative {
   text-decoration: none;
   border-radius: 10px;
 }
-div.buttonRelative a{
+
+div.buttonRelative a {
   text-decoration: none;
 }
-div.buttonRelative a:hover{
+
+div.buttonRelative a:hover {
   background-color: rgb(178, 142, 43);
 }
 
@@ -110,10 +111,12 @@ nav div.buttonRelative2 {
   text-decoration: none;
   border-radius: 10px;
 }
-div.buttonRelative2 a{
+
+div.buttonRelative2 a {
   text-decoration: none;
 }
-div.buttonRelative2 a:hover{
+
+div.buttonRelative2 a:hover {
   background-color: rgb(178, 142, 43);
 }
 
@@ -139,5 +142,5 @@ article {
   align-content: center;
   display: flex;
   justify-content: center;
-  color:#BF3124;
+  color: #BF3124;
 }

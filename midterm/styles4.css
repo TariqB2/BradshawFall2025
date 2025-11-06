@@ -2,6 +2,7 @@
 html {
   box-sizing: border-box;
 }
+
 /* asterisk (*) symbol represents the universal selector. Its primary function is to select all elements of any type within the document. */
 /* :before is a pseudo-element used to insert content before the actual content of a selected element. It creates a "virtual" first child within the element, allowing you to style and add content that isn't directly present in your HTML markup. */
 *,
@@ -9,64 +10,68 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
 /* END border-box fix */
 
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url(/images/circus-pattern.jpg);
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/circus-pattern.jpg);
   background-attachment: fixed;
 }
+
 .container1 {
-    display: flex;
-    flex-wrap: wrap;  
-    justify-content: center;
-    gap: 50px;          
-    margin: 50px auto;
-    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px auto;
+  width: 100%;
 }
 
 .prize {
-    background-color: #66C4D9;
-    border-radius: 50px;
-    border: ridge #F2E2CE;
-    padding: 50px;
-    width: 250px; 
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #66C4D9;
+  border-radius: 50px;
+  border: ridge #F2E2CE;
+  padding: 50px;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .prize img {
-    max-width: 150px; 
-    height: auto;
-    border-radius: 15px;
-    margin-bottom: 10px;
+  max-width: 150px;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 .prize h2 {
-    font-family: "Rock Salt", cursive;
-    margin: 0;
+  font-family: "Rock Salt", cursive;
+  margin: 0;
 }
 
 
 
-   div.buttonRelative2 {
-    background-color: #D92525;
-    width: 100px;
-    padding: 10px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    position: relative;
-    left: 40px;
-    z-index: 3;
+div.buttonRelative2 {
+  background-color: #D92525;
+  width: 100px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: relative;
+  left: 40px;
+  z-index: 3;
 }
-div.buttonRelative2 a{
+
+div.buttonRelative2 a {
   text-decoration: none;
 }
-div.buttonRelative2 a:hover{
-  background-color:  #813030;
+
+div.buttonRelative2 a:hover {
+  background-color: #813030;
 }
