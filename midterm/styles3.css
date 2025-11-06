@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/circus-pattern.jpg);
+  background-attachment: fixed;
+}
+
+.container {
+    width: 70%;
+    height: 400px;
+    background-color: #66C4D9;
+    margin: 0 auto;
+    border-radius: 50px;
+    border-style: ridge;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Rock Salt", cursive;
+    font-weight: 200;
+    font-style: normal;
+    color: #D92525;
+}
