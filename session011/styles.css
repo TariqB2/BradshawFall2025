@@ -1,0 +1,67 @@
+
+body {
+	font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: 600;
+	background-color: #f80000;
+}
+
+h1 {
+	color: #194fb4;
+	text-align: center;
+}
+
+#left-container {
+	left: 0px;
+}
+
+#right-container {
+	right: 0px;
+}
+
+.container {
+	background-color: #00cbf8;
+	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.plant-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.shapes {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+.jar-walls {
+	height: 80%;
+	width: 60%;
+	background: rgb(255, 255, 255);
+	border-radius: 1rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: 0.9;
+	z-index: 1;
+}
+
+
+.dirt {
+	width: 60%;
+	height: 5%;
+	background: #d4a31b;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: 1%;
+	left: 20%;
+	opacity: 0.90;
+	z-index: -1;
+}
